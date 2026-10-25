@@ -1,0 +1,18 @@
+import pandas as pd
+df=pd.read_csv("pgm4.csv")
+print("sales dataset:")
+print(df)
+print("\nmean:")
+print(df["sales"].mean())
+print("\nmedian:")
+print(df["sales"].median())
+print("\nmode:")
+print(df["sales"].mode())
+print("\nvariance:")
+print(df["sales"].var())
+print("\nstandard deviation:")
+print(df["sales"].std())
+correlation=df["advertisement"].corr(df["sales"])
+print("\ncorrelation between advertisement and sales:")
+print(correlation)
+
