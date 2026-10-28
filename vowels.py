@@ -1,4 +1,4 @@
-string=input("Enter a string:")
+string=input ("Enter a string:")
 vowels=0
 consonants=0
 digits=0
