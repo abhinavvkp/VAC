@@ -2,7 +2,7 @@ import pandas as pd
 df=pd.read_csv("pgm4.csv")
 print("sales dataset:")
 print(df)
-print("\nmean:")
+print ("\nmean:")
 print(df["sales"].mean())
 print("\nmedian:")
 print(df["sales"].median())
