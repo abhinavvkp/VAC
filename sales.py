@@ -10,7 +10,7 @@ maximum_sales=df["sales"].max()
 print("maximum sales:",maximum_sales)
 minimum_sales=df["sales"].min()
 print("minimum sales:",minimum_sales)
-amount=30000
+amount= 30000
 print("\ncustomers with sales greater than",amount,":")
 result=df[df["sales"]>amount]
 print("result")
